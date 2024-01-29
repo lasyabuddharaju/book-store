@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BookStore</title>
+<link rel="stylesheet" href="styles.css">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+            a{
+                color: black;
+            }
+            a:hover{
+                color:#EB455F
+            }
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("https://i.pinimg.com/736x/d5/fa/19/d5fa195e91b17c781311e93dd380826f.jpg");
+
+  min-height: 620px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 100px;
+  margin: 20px;
+  margin-top: 50px;
+  max-width: 30%;
+  padding: 50px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #EB455F;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+    <section>
+        <div style="width: 100%;height: 100px;padding-top: 30px;">
+        <nav>
+            <ul style="list-style-type: none;">
+                <li style="font-size: 30px; display: inline;margin-right: 750px;float: left;"><h1>BookStore</h1></li>
+                <a href="index.html"><li class="newnav">Home</li></a>
+                <li class="newnav">Books</li>
+                <li class="newnav">About</li>
+                <li class="newnav">Contact</li>
+                <li class="newnav">Account</li>
+                <li class="newnav"><i class="fa-solid fa-cart-shopping"></i></li>
+            </ul>
+        </nav>
+        </div>
+    </section><br>
+<div class="bg-img">
+  <form class="container">
+    <h1>Sign Up</h1>
+
+    <label for="user"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="user" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn">Log in</button><br><br>
+    <a href="#"><h6 align="center">Forgot Password</h6></a>
+  </form>
+</div>
+<section>
+    <div style="width: 100%;height: 300px;background-color: black;color: white;padding: 30px;padding-left: 50px;">
+        <div class="row">
+            <div class="col-lg-4">
+                <b><p>Download Our App</p></b>
+                <p>Download App for Android and iOS mobile phone</p>
+                <button style="display: inline;background-color: black;color: white;box-shadow: 1px 1px 5px white;border-radius: 5px;padding: 8px;margin-right: 10px;"><i class="fa-brands fa-google-play" style="font-size: 50px;"></i>&nbsp; <b>Google Play</b></button>
+                <button style="display: inline;background-color: black;color: white;box-shadow: 1px 1px 5px white;border-radius: 5px;padding: 8px;"><i class="fa-brands fa-apple" style="font-size: 50px;"></i>&nbsp; <b>Apple Store</b></button>
+            </div>
+            <div class="col-lg-3" style="text-align: center;">
+                <h1>BookStore</h1><br><br>
+                <p>Follow for latest released books and hardcopies.</p>
+                <p>Thank you.</p>
+            </div>
+            <div class="col-lg-2" style="text-align: center;">
+                <b><p>useful links</p></b><br>
+                <p style="margin-bottom: 0;">Coupons</p>
+                <p style="margin-bottom: 0;">Coupons</p>
+                <p style="margin-bottom: 0;">Coupons</p>
+                <p style="margin-bottom: 0;">Coupons</p>
+            </div>
+            <div class="col-lg-3" style="color: white;text-align: center;">
+                <b><p>follow us</p></b><br>
+                <i class="fa-brands fa-facebook" style="font-size: 30px;margin-right: 10px;"></i>
+                <i class="fa-brands fa-youtube" style="font-size: 30px;margin-right: 10px;"></i>
+                <i class="fa-brands fa-instagram" style="font-size: 30px;margin-right: 10px;"></i>
+                <i class="fa-brands fa-twitter" style="font-size: 30px;margin-right: 10px;"></i>
+            </div>
+        </div>
+        <hr>
+        <h6 align="center" style="margin-right: 10%;">Copyright 2022 - BookStore</h6>
+    </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BookStore</title>
+        <link rel="stylesheet" href="styles.css">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            .next{
+                color: black;
+                border-color: #EB455F;
+            }
+            a{
+                color: black;
+            }
+            a:hover{
+                color:#EB455F
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <div style="width: 100%;height: 100px;padding-top: 30px;">
+            <nav>
+                <ul style="list-style-type: none;">
+                    <li style="font-size: 30px; display: inline;margin-right: 750px;float: left;"><h1>BookStore</h1></li>
+                    <a href="index.html"><li class="newnav">Home</li></a>
+                    <li class="newnav">Books</li>
+                    <li class="newnav">About</li>
+                    <li class="newnav">Contact</li>
+                    <li class="newnav">Account</li>
+                    <li class="newnav"><i class="fa-solid fa-cart-shopping"></i></li>
+                </ul>
+            </nav>
+            </div>
+        </section><br><br><br>
+        <section>
+            <h1 align="center"><i class="fa-solid fa-cart-shopping" style="color: #f16d81;font-size: 40PX;"></i> Cart</h1><br>
+         <div style="padding-left: 150px;padding-right: 150px;">
+            <div style="background-color: #EB455F;padding-left: 50px;padding-right: 50px;">
+                <p style="display: inline;margin-right: 40%;font-size: 20px;"><b>Books</b></p>
+                <p style="display: inline;margin-right: 40%;font-size: 20px;"><b>Quantity</b></p>
+                <p style="display: inline;font-size: 20px; margin-left: 96%;"><b>SubTotal</b></p>
+            </div><br><br>
+            <div style="padding-left: 50px;padding-right: 50px;display: flex;flex-direction: row;">
+                <img src="https://m.media-amazon.com/images/I/71bWe8pKAPL._AC_UY327_FMwebp_QL65_.jpg" width="100px" height="150px" style="margin-right: 20px;">
+                <p ><b>Title</b><br>Stars<br><span style="color: #EB455F;">Remove</span></p>
+                <p style="margin-left:33%">1</p>
+                <p style="margin-left:43%">Rs.500</p>
+            </div><br>
+            <div style="padding-left: 50px;padding-right: 50px;display: flex;flex-direction: row;">
+                <img src="https://m.media-amazon.com/images/I/71bWe8pKAPL._AC_UY327_FMwebp_QL65_.jpg" width="100px" height="150px" style="margin-right: 20px;">
+                <p ><b>Title</b><br>Stars<br><span style="color: #EB455F;">Remove</span></p>
+                <p style="margin-left:33%">1</p>
+                <p style="margin-left:43%">Rs.500</p>
+            </div><br>
+            <div style="padding-left: 50px;padding-right: 50px;display: flex;flex-direction: row;">
+                <img src="https://m.media-amazon.com/images/I/71bWe8pKAPL._AC_UY327_FMwebp_QL65_.jpg" width="100px" height="150px" style="margin-right: 20px;">
+                <p ><b>Title</b><br>Stars<br><span style="color: #EB455F;">Remove</span></p>
+                <p style="margin-left:33%">1</p>
+                <p style="margin-left:43%">Rs.500</p>
+            </div><br>
+            <div style="margin-left: 60%;">
+                <hr style="width: 99%;background-color: #EB455F;height: 3px;border: 1px solid #EB455F;">
+                <b><p>Sub Total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 1500.00</p>
+                <p>Tax&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 100.00</p>
+                <p>Total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs 1600.00</p></b>
+            </div>
+         </div>
+        </section>
+        <section>
+            <div style="width: 100%;height: 300px;background-color: black;color: white;padding: 30px;padding-left: 50px;">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <b><p>Download Our App</p></b>
+                        <p>Download App for Android and iOS mobile phone</p>
+                        <button style="display: inline;background-color: black;color: white;box-shadow: 1px 1px 5px white;border-radius: 5px;padding: 8px;margin-right: 10px;"><i class="fa-brands fa-google-play" style="font-size: 50px;"></i>&nbsp; <b>Google Play</b></button>
+                        <button style="display: inline;background-color: black;color: white;box-shadow: 1px 1px 5px white;border-radius: 5px;padding: 8px;"><i class="fa-brands fa-apple" style="font-size: 50px;"></i>&nbsp; <b>Apple Store</b></button>
+                    </div>
+                    <div class="col-lg-3" style="text-align: center;">
+                        <h1>BookStore</h1><br><br>
+                        <p>Follow for latest released books and hardcopies.</p>
+                        <p>Thank you.</p>
+                    </div>
+                    <div class="col-lg-2" style="text-align: center;">
+                        <b><p>useful links</p></b><br>
+                        <p style="margin-bottom: 0;">Coupons</p>
+                        <p style="margin-bottom: 0;">Coupons</p>
+                        <p style="margin-bottom: 0;">Coupons</p>
+                        <p style="margin-bottom: 0;">Coupons</p>
+                    </div>
+                    <div class="col-lg-3" style="color: white;text-align: center;">
+                        <b><p>follow us</p></b><br>
+                        <i class="fa-brands fa-facebook" style="font-size: 30px;margin-right: 10px;"></i>
+                        <i class="fa-brands fa-youtube" style="font-size: 30px;margin-right: 10px;"></i>
+                        <i class="fa-brands fa-instagram" style="font-size: 30px;margin-right: 10px;"></i>
+                        <i class="fa-brands fa-twitter" style="font-size: 30px;margin-right: 10px;"></i>
+                    </div>
+                </div>
+                <hr>
+                <h6 align="center" style="margin-right: 10%;">Copyright 2022 - BookStore</h6>
+            </div>
+        </section>
+    </body>
+</html>
